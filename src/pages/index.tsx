@@ -21,7 +21,7 @@ export default function Home() {
               height={224}
             />
             <h1 className="my-4">
-              SAIUUUUU !!!
+              **** SAIUUUUU! ****
             </h1>
             <Image
                 src="/birinaite-apocalipse.png"
