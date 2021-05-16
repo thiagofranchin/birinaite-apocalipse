@@ -9,7 +9,8 @@ export default function Home() {
         src="https://www.youtube.com/embed/30pntcz3wh0?autoplay=1&loop=1&&playlist=30pntcz3wh0&controls=0&mute=1"
         title="Garrafa Vazia Birinaite Apocalipse"
         className={S.iframe}
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" />
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      />
       <div className={`container pb-5 ${S.homeWrapper}`}>
         <div className="row pt-5">
           <div className="col-lg-6 text-center">
@@ -32,17 +33,9 @@ export default function Home() {
               Novo CD do Garrafa Vazia...
             </p>
             <h2 className="">11 músicas...</h2>
-            <p className={`lh-1 mb-5 ${S.intro}`}>
+            <p className={`lh-1 mb-4 ${S.intro}`}>
               Nosso melhor trampo para você bailar por toda naite.
             </p>
-            <a
-              href="https://api.whatsapp.com/send?phone=5519996447845&text=Quero%20o%20CD%20do%20Birinaite%20Apocalipse!"
-              className="btn btn-danger px-5 py-3"
-              target="_blank"
-            >
-                PEÇA AGORA O SEU CD
-            </a>
-
           </div>
           <div className="col-lg-6 mt-4 mt-lg-0 text-center">
             <Image
@@ -52,6 +45,15 @@ export default function Home() {
                 height={700}
                 className="border border-danger border-5 rounded"
               />
+          </div>
+          <div className="col-12 d-flex justify-content-center my-5">
+            <a
+              href="https://api.whatsapp.com/send?phone=5519996447845&text=Eu%20quero%20o%20CD%20do%20Birinaite%20Apocalipse!"
+              className={`btn btn-danger px-5 py-3 ${S.buyButton}`}
+              target="_blank"
+            >
+                PEÇA AGORA O SEU CD
+            </a>
           </div>
         </div>
         <div className="row mt-4">
@@ -73,9 +75,12 @@ export default function Home() {
               <li className="">CORAÇÃO ENVENENADO</li>
             </ul>
           </div>
+          <div className="col-12 mt-4">
+            <h1>Lasca o play</h1>
+            <iframe width="100%" height="400" src="https://www.youtube.com/embed/30pntcz3wh0" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"></iframe>
+          </div>
         </div>
       </div>
-
     </>
   )
 }
