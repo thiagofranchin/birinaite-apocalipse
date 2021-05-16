@@ -1,0 +1,21 @@
+{
+  "name": "Birinaite Apocalipse - Garrafa Vazia",
+  "short_name": "Birinaite Apocalipse",
+  "icons": [
+    {
+      "src": "/favicon-256.png",
+      "type": "image/png",
+      "sizes": "256x256"
+    },
+    {
+      "src": "/favicon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "background_color": "#be0411",
+  "description": "Novo CD do Garrafa Vazia - Birinaite Apocalipse",
+  "display": "fullscreen",
+  "start_url": "/",
+  "theme_color": "#be0411"
+}
